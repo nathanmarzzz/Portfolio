@@ -1,0 +1,87 @@
+body{
+    background-color:black;
+}
+
+/* list items and list in header */
+ul{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header{
+    background: black;
+    padding: 20px 20px 20px 20px;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+}
+header nav{
+    float: left;
+}
+header li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: inline;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+header a:hover{
+    color:grey;
+}
+header a:active{
+    color:white;
+}
+
+/* showcase and portrait pic*/
+.portrait{
+    width: 86%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 3px;
+}
+#showcase{
+    min-height: 450px;
+    background: url("/Users/Nathan/portfolio/Portfolio/images/rocksOcean.jpeg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 5px 3px 40px 0;
+    border-bottom: white 1px solid;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+#showcase img{
+   width: 25%;
+   padding: 95px;
+}
+/* About me description */
+#textSection{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width:86%;
+    padding:10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Contact me info */
+#contact{
+    padding: 15px;
+    color:white;
+
+}
+#contact h1{
+    color: white;
+    text-align: left;
+}
+
+/* Experience */
+#experience{
+    padding: 15px;
+    color: white;
+}
+
+#experience h1{
+    margin-top:10px;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
