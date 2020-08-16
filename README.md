@@ -1,2 +1,3 @@
 # Portfolio
-Interests and projects
+
+This is meant to provide a (hopefully) aesthetic and simple way to get to know me
