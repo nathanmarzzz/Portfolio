@@ -128,7 +128,7 @@ header a:hover{
 /* picture for home */
 #hback img{
     max-height: 250;
-    background-size: cover;
+    background-size: auto;
     padding: 5px 3px 40px 0;
     border-bottom: white 1px solid;
     margin-bottom: 10px;
@@ -181,5 +181,6 @@ header a:hover{
 
 #getintouch textarea{
     background-color: black;
-    color: grey;
+    color: white;
+    width: 50%;
 }
