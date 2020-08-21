@@ -11,13 +11,39 @@
     <body>
         <header>
             <nav>
-                <ul>
-                    <li>Home </li>
+                <ul id="menu">
+                    <li class="current"><a href="index.html">Home</a></li>
                     <li> <a href="aboutme.html">About Me</a></li>
                     <li><a href="projects.html">Projects</a> </li>
                 </ul>
             </nav>
         </header>
+        <!-- picture of background 
+                either
+                coffee and computer 
+                or plants and computer
+                or just a background I already have-->
+        <section id="hback">
+            <img src="images/sunsetbird.jpeg">
+         </section>
+         <section id="getintouch">
+            <h1> Get In Touch </h1>
+            <form action="conact.php" method="post">
+                <fieldset>
+                    <p>
+                        <input type="text" name="Name" placeholder="Enter your name..."> 
+                    </p>
+                    <p>
+                        <input type="email" placeholder="Enter email address...">
+                    </p>
+                    <p>
+                        <textarea rows="15" cols="50" id="message"> Enter your message here...</textarea>
+                    </p>
+                    <button type="submit" class="button">Send Email</button>
+                </fieldset>
+            </form>
+
+        </section>
     </body>
 
 </html>
