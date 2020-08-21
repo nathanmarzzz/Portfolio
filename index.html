@@ -28,18 +28,18 @@
          </section>
          <section id="getintouch">
             <h1> Get In Touch </h1>
-            <form action="conact.php" method="post">
+            <form action="./php/contact.php" method="post">
                 <fieldset>
                     <p>
                         <input type="text" name="Name" placeholder="Enter your name..."> 
                     </p>
                     <p>
-                        <input type="email" placeholder="Enter email address...">
+                        <input type="email" name="email" placeholder="Enter email address...">
                     </p>
                     <p>
-                        <textarea rows="15" cols="50" id="message"> Enter your message here...</textarea>
+                        <textarea rows="15" cols="50" name="message" id="message"> Enter your message here...</textarea>
                     </p>
-                    <button type="submit" class="button">Send Email</button>
+                    <button type="submit" name="submit">Send Email</button>
                 </fieldset>
             </form>
 
