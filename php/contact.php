@@ -1,5 +1,5 @@
 <?php
-    require_once 'php/vendor/autoload.php';
+    // require_once 'php/vendor/autoload.php';
 
     try{
         if(isset($_POST["message"]))
