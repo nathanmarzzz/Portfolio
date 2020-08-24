@@ -83,6 +83,12 @@ header a:hover{
     color:wheat;
 
 }
+#contact a{
+    color: wheat;
+}
+#contact a:hover{
+    color: rgba(235, 176, 67, 0.918);
+}
 #contact h1{
     color: white;
     text-align: center;
@@ -92,7 +98,7 @@ header a:hover{
 /* Experience */
 #experience{
     padding: 15px;
-    color: wheat; /* do I like this better? */
+    color: wheat;
 }
 #experience h3{
     margin-top:10px;
@@ -153,7 +159,7 @@ header a:hover{
     text-align: center;
     align-self: center;
     padding: 25px;
-    background:url("../images/hardware.jpeg") no-repeat center;
+    background: url("../images/hardware.jpeg") no-repeat center;
     background-blend-mode: soft-light;
 }
 
