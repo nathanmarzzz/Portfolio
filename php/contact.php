@@ -1,3 +1,7 @@
+<!-- 
+    if I want to host my own website I have a yahoo accnt: nz@yahoo.com
+    where I forward messages to my gmail accnt bc mail() doesn't support gmail requests
+ -->
 <?php
     // require_once 'php/vendor/autoload.php';
 
