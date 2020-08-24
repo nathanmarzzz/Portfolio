@@ -153,7 +153,7 @@ header a:hover{
     text-align: center;
     align-self: center;
     padding: 25px;
-    background:url("../images/hardware.jpeg");
+    background:url("../images/hardware.jpeg") no-repeat center;
     background-blend-mode: soft-light;
 }
 
