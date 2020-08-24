@@ -59,7 +59,7 @@ header a:hover{
     border-bottom: white 1px solid;
     margin-bottom: 10px;
     margin-top: 25px;
-  }
+}
 
 #showcase img{
    width: 25%;
@@ -94,7 +94,6 @@ header a:hover{
     padding: 15px;
     color: wheat; /* do I like this better? */
 }
-
 #experience h3{
     margin-top:10px;
     font-size:30px;
@@ -151,7 +150,6 @@ header a:hover{
 #getintouch fieldset{
     vertical-align: middle;
     display: inline;
-    width: 75%;
     text-align: center;
     align-self: center;
     padding: 25px;
@@ -183,4 +181,43 @@ header a:hover{
     background-color: black;
     color: white;
     width: 50%;
+}
+
+/* Projects tab */
+h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+}
+#projects{
+    margin-top: 20px;
+    padding: 15px;
+}
+#projects p{
+    color: wheat;
+}
+#projects .box{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    width: 45%;;
+}
+#projects .box img{
+    width:330px;
+    padding: 25px;
+    height: 330px;
+}
+#projects a{
+    color: rgb(14, 207, 233);
+}
+#projects a:hover{
+    color:rgb(20, 169, 189);
+}
+#projects .box h3{
+    color: wheat;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
