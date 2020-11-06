@@ -73,7 +73,7 @@ header a:hover{
     width:86%;
     padding:10px; 
 }
-#textSection a{
+#textSection a:link{
     color:wheat;
 }
 #textSection h1{
